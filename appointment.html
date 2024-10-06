@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=7">
     <link rel="stylesheet" href="/css/style.css">
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="/js/script.js">
     <link rel="apple-touch-icon" sizes="180x180" href="/redketchup/apple-touch-icon.png">
@@ -14,6 +15,100 @@
     <title>Jubilee Hospital | Appointment</title>
 </head>
 <body>
-    
+    <header> 
+        <nav class="main-nav" aria-expanded="false">
+            <div class="logo">
+                <img src="/images/jubilee logo 2.png" alt="beatpulse logo" >
+                <div class="logo-text">
+                   <p>JUBILEE HOSPITAL</p> 
+                </div>
+            </div>
+            <ul role="list" class="sub-nav">
+                <li><a href="">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <a href="/appointment.html" class="sign small">Appointment</a>
+            </ul>
+            <div class="call-to-action">
+                <a href="#" class="sign">Vaccination</a>
+                <a href="/appointment.html" class="sign">Appointment</a>
+            </div>
+        </nav>
+        <button class="navbar-toggle " aria-label="navbar-toggle" aria-controls="primary-nav" >&#9776;</button>
+    </header> 
+    <main>
+        <section class="appointment-hero ">
+            <div class="appt-text">
+                <h1>Book Appointment</h1>
+                <p><a href="/index.html">Home</a> / <a href="#">Book Appointment</a></p>
+            </div>
+        </section>
+        <section class="appointment-form">
+            <div class="appointment">
+                <form class="appt-form">
+                    <div class="fff">
+                        <input id="name" type="text" placeholder="Your name" required>
+                        <input id="phone no" type="text" placeholder="Phone number" required>
+                        <input id="email" type="text" placeholder="Email address" required>
+                        <select name="service" id="service">
+                            <option value="">Choose Service</option>
+                            <option value="yes">Cardiology</option>
+                            <option value="no">oncology</option>
+                            <option value="no">neurology</option>
+                            <option value="no">pediatrics</option>
+                            <option value="no">Gynecology</option>
+                        </select>
+                        <input id="date" type="date" placeholder="dd/mm/yy">
+                        <select name="time" id="time">
+                            <option value="">Select time</option>
+                            <option value="yes">08.00 AM</option>
+                            <option value="no">10.00 AM</option>
+                            <option value="no">12.00 AM</option>
+                            <option value="no">04.00 PM</option>
+                            <option value="no">06.00 PM</option>
+                        </select>
+                    </div>
+                    <select name="doctor" id="doctor">
+                        <option value="">Choose Doctor</option>
+                        <option value="yes">Dr. Sarah Davis</option>
+                        <option value="no">Dr. Esther Howard</option>
+                        <option value="no">Dr. Cameron Williams</option>
+                        <option value="no">Dr. Leslie Alexander</option>
+                        <option value="no">Dr. Marks Stilleng</option>
+                    </select>
+                    <input id="message" type="message" placeholder="Write your message...">
+                </form>
+                <div class="appt">
+                    <h3>Book an Appointment</h3>
+                    <p>You can benefit from an expert medical consultation - schedule an appointment now.</p>
+        
+                    <div class="list">
+                        <p>200+ Doctor Always Available</p>
+                        <p>Free Appointment With Any Specialty</p>
+                        <p>Virtual On-Site</p>
+                    </div>
+                    <h5>Need Some Help?<span>Contact Us Today</span> </h5>
+                    <div class="contact">
+                    <div class="phone">
+                        <img src="/images/phone-white.svg" alt="">
+                        <p class="num">+234794848499 </br>+234884545767</p>
+                    </div>
+                    <div class="mail">
+                        <img src="/images/email-white.svg" alt="">
+                        <p class="num">contact@medcare.com </br>info@medcare.com</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>    
+    <footer>
+
+    </footer>
+    <script src="/js/script.js">
+
+    </script>
 </body>
 </html>

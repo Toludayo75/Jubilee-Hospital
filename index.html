@@ -24,10 +24,11 @@
             </div>
             <ul role="list" class="sub-nav">
                 <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Doctors</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <a href="/appointment.html" class="sign small">Appointment</a>
             </ul>
             <div class="call-to-action">
                 <a href="#" class="sign">Vaccination</a>
@@ -55,7 +56,7 @@
                 </div>
             </div>
         </section>
-        <section class="what-we-do" data-aos="fade-right" data-aos-duration="1000" >
+        <section class="what-we-do" id="services" data-aos="fade-right" data-aos-duration="1000" >
             <div class="what-we-do-txt">
                 <h5 class="what-special">WHAT WE DO</h5>
                 <h6>Our Medical Services</h6>
@@ -175,7 +176,7 @@
                     <p>Each bringing a wealth of knowledge & expertise to provide you.</p>
                 </div>
         </div>
-        <section class="doctors">
+        <section class="doctors" id="doctors">
             <div class="doctor-text" data-aos="fade-up" data-aos-duration="1000">
                 <h5 class="doctor-special">Our Doctors</h5>
                 <h6>Get Quality Service From Our Quality Doctors</h6>
@@ -191,7 +192,7 @@
                         <h5>Ophthalmologist</h5>
                         <h4>Dr. David Martin</h4>
                         <p><i class="fa fa-star" aria-hidden="true"></i> 4.7(132 Review)</p>
-                        <a href="#">Book Appointment <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
+                        <a href="/appointment.html">Book Appointment <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
                     </div>
                 </div>
                 <div class="d-box">
@@ -203,7 +204,7 @@
                         <h5>Neurologist</h5>
                         <h4>Dr. Robert Jackson</h4>
                         <p><i class="fa fa-star" aria-hidden="true"></i> 4.(179 Review)</p>
-                        <a href="#">Book Appointment <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
+                        <a href="/appointment.html">Book Appointment <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
                     </div>
                 </div>
                 <div class="d-box">
@@ -215,7 +216,7 @@
                         <h5>Gynecologist</h5>
                         <h4>Dr. Sarah Davis</h4>
                         <p><i class="fa fa-star" aria-hidden="true"></i> 4.8(122 Review)</p>
-                        <a href="#">Book Appointment <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
+                        <a href="/appointment.html">Book Appointment <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
                     </div>
                 </div>
                 <div class="d-box">
@@ -263,7 +264,7 @@
                 </div>
             </div>
         </section>
-        <section class="blog" data-aos="fade-down" data-aos-duration="1000">
+        <section class="blog" id="blog" data-aos="fade-down" data-aos-duration="1000">
             <div class="blog-text">
                 <h5>Blogs</h5>
                 <h6>Read Our Health Tips</h6>
@@ -324,7 +325,7 @@
         <div class="footer-top">
           <h2>Get Appointment For Your Medical Service</h2>
           
-          <button class="btn-appointment">Book Appointment</button>
+          <button href="/appointment.html" class="btn-appointment">Book Appointment</button>
         </div>
       
         <div class="footer-container">
@@ -385,7 +386,7 @@
 
 
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script>
+      <script src="/js/script.js">
           AOS.init(); 
       </script>
 </body>
