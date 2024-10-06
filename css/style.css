@@ -1094,10 +1094,6 @@ header{
         place-items: center;        
         padding: 0rem 0rem;
     }
-    .appt-text{
-        background-color: #c8e4f6;
-
-    }
 }
 /* APPOINTMENT FORM STYLING */
 .appointment-form{
